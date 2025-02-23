@@ -44,7 +44,7 @@ public class CalculatorApp {
             String response = scanner.nextLine();
 
             if (!response.equals("y")) {
-                Calculator.orEven( result);
+                Calculator.orEven(result);
                 System.out.println("Kończymy program");
                 break;
             }
