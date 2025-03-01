@@ -3,9 +3,12 @@ import java.util.Scanner;
 
 public class Ship {
     int size = 5;
-    char board[][] = new char[size][size];
+    char[][] board = new char[size][size];
     Random random = new Random();
     Scanner scanner = new Scanner(System.in);
+
+    int howManyShots = 0;
+    boolean gameStart = false;
 
     public void createBoard() {
         for (int i = 0; i < size; i++) {
@@ -41,8 +44,6 @@ public class Ship {
     }
 
     public void startGame() {
-        int howManyShots = 0;
-        boolean gameStart = false;
 
         while (!gameStart) {
 
@@ -59,7 +60,9 @@ public class Ship {
                     board[targetRow][targetColumn] = 'X';
                     gameStart = true;
 
-                } else {
+                }else if (board[targetRow][targetColumn] == 'M')
+                    System.out.println("Tutaj już padł strzał! Wybierz inne pole");
+                else {
                     System.out.println("Pudło");
                     board[targetRow][targetColumn] = 'M';
                     howManyShots++;
