@@ -2,61 +2,72 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Ship {
-    public static void main(String[] args) {
-        int SIZE = 5;
-        char board[][] = new char[SIZE][SIZE];
-        Scanner scanner = new Scanner(System.in);
-        Random random = new Random();
+    int size = 5;
+    char board[][] = new char[size][size];
+    Random random = new Random();
+    Scanner scanner = new Scanner(System.in);
 
-        for (int i = 0; i < SIZE; i++) {
-            for (int j = 0; j < SIZE; j++) {
-                board[i][j] = '0';
-                System.out.print(board[i][j] + " ");
+    public void createBoard() {
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                board[i][j] = 'o';
+            }
+        }
+    }
+
+    public void addShip() {
+        int shipRow, shipColumn;
+        shipRow = random.nextInt(5);
+        shipColumn = random.nextInt(5);
+        board[shipRow][shipColumn] = 'S';
+    }
+
+    public void showBoard() {
+        System.out.println("     0 1 2 3 4");
+        System.out.println("    ----------");
+
+        for (int i = 0; i < size; i++) {
+            System.out.printf("%2d | ", i);
+            for (int j = 0; j < size; j++) {
+                if (board[i][j] == 'S') {
+                    System.out.print("o ");
+                } else {
+                    System.out.print(board[i][j] + " ");
+                }
             }
             System.out.println();
 
         }
+    }
 
-
+    public void startGame() {
+        int howManyShots = 0;
         boolean gameStart = false;
-        int shipRow = random.nextInt(SIZE);
-        int shipCol = random.nextInt(SIZE);
-        board[shipRow][shipCol] = 'S';
 
-        while (!gameStart){
-            System.out.println("Gra w statki!");
-            System.out.println("Podaj wiersz od 0 do 4");
-            int targetRow = scanner.nextInt();
-            scanner.nextLine();
+        while (!gameStart) {
 
-            System.out.println("Podaj kolumnę od 0 do 4");
-            int targetCol = scanner.nextInt();
-            scanner.nextLine();
+                System.out.println("Podaj wiersz od 0 do 4");
+                int targetRow = scanner.nextInt();
+                scanner.nextLine();
 
-            if (board[targetRow][targetCol] == 'S'){
-                System.out.println("Trafionmy");
-                gameStart = true;
-            }else {
-                System.out.println("Pudło!");
-                board[targetRow][targetCol] = 'M';
-            }
+                System.out.println("Podaj kolumnę od 0 do 4");
+                int targetColumn = scanner.nextInt();
+                scanner.nextLine();
+
+                if (board[targetRow][targetColumn] == 'S') {
+                    System.out.println("Trafiony zatopiony");
+                    board[targetRow][targetColumn] = 'X';
+                    gameStart = true;
+
+                } else {
+                    System.out.println("Pudło");
+                    board[targetRow][targetColumn] = 'M';
+                    howManyShots++;
+
+                }
+                showBoard();
+
+            }System.out.println("Trafiłeś w statek za " + howManyShots +
+                " " + "razem");
         }
-        showBoard(board, SIZE);
     }
-    public static void showBoard(char board[][],int SIZE){
-        System.out.println("aktualna plansza");
-        for (int i = 0; i < SIZE; i++) {
-            for (int j = 0; j < SIZE; j++) {
-                if (board[i][j] == 'S'){
-                    System.out.print("o ");
-                }else
-                    System.out.println();
-
-            }
-
-        }
-
-    }
-
-
-}
