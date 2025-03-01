@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Kalkulator/Kalkulator.iml" filepath="$PROJECT_DIR$/Kalkulator/Kalkulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zmienne/Array/Array.iml" filepath="$PROJECT_DIR$/zmienne/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/KursJava3.iml" filepath="$PROJECT_DIR$/.idea/KursJava3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stos/stos.iml" filepath="$PROJECT_DIR$/stos/stos.iml" />
       <module fileurl="file://$PROJECT_DIR$/zmienne/zmienne.iml" filepath="$PROJECT_DIR$/zmienne/zmienne.iml" />
     </modules>
   </component>
