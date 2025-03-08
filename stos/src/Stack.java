@@ -1,22 +1,23 @@
-public class Stack {
+public class Stack<T> {
     private int size;
-    private Node top;
+    private Node<T> top;
 
-    public void push (Integer value){
-        Node node = new Node(value, top);
-        top = node;
+    public void push (T value){
+        top = new Node<T>(value, top);
         size++;
     }
 
-    public Integer pop(){
-        Integer value = top.getValue();
+    public void pop(){
+        if (top == null){
+            return;
+        }
+        T value = top.getValue();
         top = top.getNext();
         size--;
-        return value;
     }
 
     public void printStack(){
-        Node current = top;
+        Node<T> current = top;
         while (current != null){
             System.out.println(current.getValue());
             current = current.getNext();
@@ -24,23 +25,28 @@ public class Stack {
         }
     }
 
-    public void addLast(Integer value){
-        Node node = new Node(value, null);
-        Node current = top;
-        while (current.getNext() != null){
+    public void addLast(T value) {
+        Node<T> node = new Node<>(value, null);
+        Node<T> current = top;
+        if (top == null) {
+            top = node;
+            return;
+        }
+        while (current.getNext() != null) {
             current = current.getNext();
         }
         current.setNext(node); //remove ma usunąć wartość Integer > zrób pętle > znajdź ten element i przepnij nexta żeby go skipnął
-
     }
+
 
     public void clear(){
         top = null;
         size = 0;
     }
 
-    public void remove(Integer value){
-        Node current = top;
+    public void remove(T value){
+        if (top == null) return;
+        Node<T> current = top;
         while (current.getNext() != null){
             if (current.getNext().getValue().equals(value)){
                 current.setNext(current.getNext().getNext());

@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -9,6 +10,7 @@ public class Ship {
 
     int howManyShots = 0;
     boolean gameStart = false;
+
 
     public void createBoard() {
         for (int i = 0; i < size; i++) {
@@ -44,15 +46,21 @@ public class Ship {
     }
 
     public void startGame() {
-
         while (!gameStart) {
-
+            try {
                 System.out.println("Podaj wiersz od 0 do 4");
                 int targetRow = scanner.nextInt();
+                if (targetRow < 0 || targetRow > 4) {
+                    System.out.println("Wykroczyłeś poza mapę! Spróbuj jeszcze raz");
+                    continue;
+                }
                 scanner.nextLine();
-
                 System.out.println("Podaj kolumnę od 0 do 4");
                 int targetColumn = scanner.nextInt();
+                if (targetColumn < 0 || targetColumn > 4) {
+                    System.out.println("Wykroczyłeś poza mapę! Spróbuj jeszcze raz");
+                    continue;
+                }
                 scanner.nextLine();
 
                 if (board[targetRow][targetColumn] == 'S') {
@@ -60,17 +68,21 @@ public class Ship {
                     board[targetRow][targetColumn] = 'X';
                     gameStart = true;
 
-                }else if (board[targetRow][targetColumn] == 'M')
+                } else if (board[targetRow][targetColumn] == 'M')
                     System.out.println("Tutaj już padł strzał! Wybierz inne pole");
                 else {
                     System.out.println("Pudło");
                     board[targetRow][targetColumn] = 'M';
                     howManyShots++;
-
                 }
-                showBoard();
+            } catch (InputMismatchException e) {
+                System.out.println("Wprowadzono nie poprawne dane. Spróbuj ponownie!");
+                scanner.nextLine();
+            }
+            showBoard();
 
-            }System.out.println("Trafiłeś w statek za " + howManyShots +
-                " " + "razem");
         }
+        System.out.println("Trafiłeś w statek za " + howManyShots +
+                " " + "razem");
     }
+}
