@@ -12,6 +12,8 @@ public class LibraryItem {
     }
 
 
+
+
     @Override
     public String toString() {
         return "Tytuł " + title;
