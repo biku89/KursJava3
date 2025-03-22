@@ -17,6 +17,11 @@ public class Library {
             System.out.println(item);
         }
     }
+    public void printAvaiable(){
+        for (LibraryItem item : this.items){
+        }
+    }
+
     public LibraryItem findByTitle(String title) {
         for (LibraryItem item : this.items) {
             if (item.getTitle().equals(title)) {
