@@ -43,10 +43,12 @@ public class InterfaceUser {
                     }
                     case 5 ->{
                         System.out.println("Dostpęna lista tytułów do wypożyczenia");
+                        library.printAvaiable();
                     }
+                    default -> System.err.println("Wprowadziłeś błędny znak");
                 }
-            }catch (ItemAlredyReturnedException e){
-                System.err.println(":(");
+            }catch (ItemAlredyReturnedException | ItemAlredyBorrowException e){
+                System.err.println();
             }
         }
     }
@@ -57,5 +59,6 @@ public class InterfaceUser {
         System.out.println("2 - Wypożyczenie");
         System.out.println("3 - Zwrot");
         System.out.println("4 - Liczba książek i filmów");
+        System.out.println("5 - Lista dostępnych tytułów");
     }
 }

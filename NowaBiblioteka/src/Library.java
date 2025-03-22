@@ -19,6 +19,9 @@ public class Library {
     }
     public void printAvaiable(){
         for (LibraryItem item : this.items){
+            if (!item.isBorrowed()){
+                System.out.println(item);
+            }
         }
     }
 
