@@ -8,5 +8,7 @@ public class Main {
         library.addItem(new Film("Za szybcy","Za wścielko", 69));
         //library.printAllTitle();
         //System.out.println("Liczba książek " + Book.getCountBook());
+        InterfaceUser interfaceUser = new InterfaceUser(library);
+        interfaceUser.showMenu();
     }
 }

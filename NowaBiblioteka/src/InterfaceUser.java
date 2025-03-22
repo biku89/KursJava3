@@ -4,10 +4,9 @@ public class InterfaceUser {
     Scanner scanner;
     Library library;
 
-    public InterfaceUser(Scanner scanner, Library library) {
-        this.scanner = scanner;
+    public InterfaceUser(Library library) {
+        this.scanner = new Scanner(System.in);
         this.library = library;
-        this.library = new Library();
 
     }
 
@@ -17,7 +16,7 @@ public class InterfaceUser {
 
             try {
                 int choice = scanner.nextInt();
-                this.scanner.nextLine();
+                scanner.nextLine();
                 switch (choice){
                     case 0 ->{
                         System.out.println("Kończymy działanie programu");

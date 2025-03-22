@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Dodaje aktualizację plików">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/InterfaceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/InterfaceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/InterfaceUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KursJava3/InterfaceUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KursJava3/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
