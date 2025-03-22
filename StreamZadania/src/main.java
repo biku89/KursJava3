@@ -119,7 +119,7 @@ class User {
     }
 }
 
-class Main {
+class main {
     public static void main(String[] args) {
         List<User> users = List.of(
                 new User(1L, "Ada", "Antczak", "a_antczak@email.com", 3456.5, 20, Job.JAVA_DEVELOPER),

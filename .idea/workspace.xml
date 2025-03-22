@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Delete Kalkulator directory">
       <changelist_data name="Łukasz" email="biklukasz@gmail.com" automatic="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KursJava9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KursJava9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +58,23 @@
     &quot;assignee&quot;: &quot;biku89&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/biku89/KursJava3",
-    "accountId": "49c15dd2-baaa-4247-8710-a1323f555e46"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/biku89/KursJava3&quot;,
+    &quot;accountId&quot;: &quot;49c15dd2-baaa-4247-8710-a1323f555e46&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "biku89",
-    "repository": "KursJava3"
+    &quot;owner&quot;: &quot;biku89&quot;,
+    &quot;repository&quot;: &quot;KursJava3&quot;
   },
-  "editorReviewEnabled": false
-}]]></component>
+  &quot;editorReviewEnabled&quot;: false
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/zmienne/src/BigDecimalAndInt.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -119,7 +119,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/biklu/IdeaProjects/KursJava3",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
