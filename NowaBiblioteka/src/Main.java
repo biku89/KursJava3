@@ -1,4 +1,6 @@
-import java.util.Scanner;
+import model.Book;
+import model.Film;
+import service.Library;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +9,7 @@ public class Main {
         library.addItem(new Book("Koty","psy", 999));
         library.addItem(new Film("Za szybcy","Za wścielko", 69));
         //library.printAllTitle();
-        //System.out.println("Liczba książek " + Book.getCountBook());
+        //System.out.println("Liczba książek " + model.Book.getCountBook());
         InterfaceUser interfaceUser = new InterfaceUser(library);
         interfaceUser.showMenu();
     }

@@ -1,3 +1,10 @@
+import exception.ItemAlredyBorrowException;
+import exception.ItemAlredyReturnedException;
+import exception.ItemNotFoundException;
+import model.Book;
+import model.Film;
+import service.Library;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -35,7 +42,7 @@ public class InterfaceUser {
                     case 3 ->{
                         System.out.println("Podaj tytuł do zwortu");
                         String title = scanner.nextLine();
-                        library.returnItem(title);
+                        this.library.returnItem(title);
                     }
                     case 4 -> {
                         System.out.println("Liczba książek: " + Book.getCountBook());

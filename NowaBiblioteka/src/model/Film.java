@@ -1,3 +1,5 @@
+package model;
+
 public class Film extends LibraryItem {
     private String directory;
     private double durationFilm;

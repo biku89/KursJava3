@@ -1,3 +1,9 @@
+package service;
+
+import exception.ItemAlredyReturnedException;
+import exception.ItemNotFoundException;
+import model.LibraryItem;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,17 +40,17 @@ public class Library {
         return null;
     }
 
-    public void rentItem(String title) throws ItemNotFoundException{
+    public void rentItem(String title) throws ItemNotFoundException {
         LibraryItem item = this.findByTitle(title);
         if (item != null){
-            this.findByTitle(title).borrowItem();
+            this.findByTitle(title).returnItem();
             System.out.println("Tytuł został przez Ciebie wypożyczony");
         } else {
             System.err.println("Błędna nazwa tytłu " + title);
         }
     }
 
-    public void returnItem(String title) throws ItemAlredyReturnedException{
+    public void returnItem(String title) throws ItemAlredyReturnedException {
         LibraryItem item = this.findByTitle(title);
         if (item != null){
             this.findByTitle(title).borrowItem();

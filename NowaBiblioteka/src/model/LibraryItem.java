@@ -1,3 +1,8 @@
+package model;
+
+import exception.ItemAlredyBorrowException;
+import exception.ItemAlredyReturnedException;
+
 public class LibraryItem {
     private String title;
     private boolean isBorrowed;
@@ -19,7 +24,7 @@ public class LibraryItem {
         }
     }
 
-    public void returnItem()throws ItemAlredyReturnedException{
+    public void returnItem()throws ItemAlredyReturnedException {
         if (!this.isBorrowed){
             throw new ItemAlredyReturnedException("Element był już zwrócny" + this.title);
         }else {
