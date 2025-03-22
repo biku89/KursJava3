@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class InterfaceUser {
@@ -46,14 +47,17 @@ public class InterfaceUser {
                     }
                     default -> System.err.println("Wprowadziłeś błędny znak");
                 }
-            }catch (ItemAlredyReturnedException | ItemAlredyBorrowException e){
+            }catch (ItemAlredyReturnedException | ItemAlredyBorrowException | ItemNotFoundException e){
                 System.err.println();
+            }catch (InputMismatchException e){
+                System.err.println("Wprowadzono błędne dane");
             }
         }
     }
 
     private void displayMenu() {
         System.out.println("Wybierz jedną z opcji");
+        System.out.println("0 - Zakończ działanie programu");
         System.out.println("1 - Wyświetl zawartość biblioteki");
         System.out.println("2 - Wypożyczenie");
         System.out.println("3 - Zwrot");

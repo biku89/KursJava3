@@ -34,7 +34,7 @@ public class Library {
         return null;
     }
 
-    public void rentItem(String title){
+    public void rentItem(String title) throws ItemNotFoundException{
         LibraryItem item = this.findByTitle(title);
         if (item != null){
             this.findByTitle(title).borrowItem();
@@ -44,11 +44,11 @@ public class Library {
         }
     }
 
-    public void returnItem(String title){
+    public void returnItem(String title) throws ItemAlredyReturnedException{
         LibraryItem item = this.findByTitle(title);
         if (item != null){
             this.findByTitle(title).borrowItem();
-            System.out.println("Tytuł został już zwrócomy");
+            System.out.println("Tytuł został pomyślnie zwrócony");
         }else {
             System.err.println("Błędna nazwa tytułu " + title);
         }
