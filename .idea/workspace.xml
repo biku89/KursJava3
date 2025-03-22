@@ -4,7 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Nowa Biblioteka" />
+    <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Nowa Biblioteka">
+      <change beforePath="$PROJECT_DIR$/.idea/KursJava9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2025_20_50_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2025_20_50__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2025_20_53_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2025_20_53_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2025_20_53__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2025_20_53__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2025_20_54_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2025_20_54__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_30_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_30_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_30_[Changes]2/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_30__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_30__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_31_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_31__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_40_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_40__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_48_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_48_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_48__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_03_2025_13_48__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamZadania/StreamZadania.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamZadania/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/Task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/FruitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Nwd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Palindrom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/PersonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/PointApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Pyramid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/PyramidRepeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/Rectangel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/TicTacToe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StreamZadania/Job.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StreamZadania/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StreamZadania/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task/Nwd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task/Pyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task/Rectangel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stos/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stos/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stos/src/main1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stos/stos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/Array/Array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/Array/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/Array/src/Ship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/Array/src/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/Tree/Tree.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/Tree/src/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/Tree/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/src/BigDecimalAndInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/src/CalcApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/src/CalculatorApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zmienne/zmienne.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,9 +178,9 @@
     "Application.Ship.executor": "Run",
     "Application.TestMain.executor": "Run",
     "Application.TicTacToe.executor": "Run",
+    "Application.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Nowa-Biblioteka",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -404,7 +474,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742647852377</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Nowa Biblioteka">
+      <option name="closed" value="true" />
+      <created>1742647881223</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1742647881223</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Nowa Biblioteka">
+      <option name="closed" value="true" />
+      <created>1742647889258</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1742647889258</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
