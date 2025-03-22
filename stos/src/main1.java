@@ -1,4 +1,4 @@
-public class Main {
+public class main1 {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         Stack<String> stackString = new Stack<>();
