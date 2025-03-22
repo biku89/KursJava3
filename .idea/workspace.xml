@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/NowaBiblioteka/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowaBiblioteka/src/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NowaBiblioteka/src/LibraryItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
