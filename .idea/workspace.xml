@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Dodaje aktualizację plików">
-      <change afterPath="$PROJECT_DIR$/NowaBiblioteka/src/ItemAlredyBorrowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NowaBiblioteka/src/ItemAlredyReturnedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/LibraryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/LibraryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/InterfaceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/InterfaceUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
