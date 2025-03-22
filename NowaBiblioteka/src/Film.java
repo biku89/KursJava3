@@ -7,6 +7,7 @@ public class Film extends LibraryItem {
         super(title);
         this.directory = directory;
         this.durationFilm = durationFilm;
+        countFilm++;
     }
 
     public String getDirectory() {
@@ -31,5 +32,10 @@ public class Film extends LibraryItem {
 
     public static void setCountFilm(int countFilm) {
         Film.countFilm = countFilm;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " Reżyser " + directory + " Czas trwania filmu " + durationFilm;
     }
 }

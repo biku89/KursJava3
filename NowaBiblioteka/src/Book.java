@@ -3,10 +3,11 @@ public class Book extends LibraryItem {
     private int page;
     private static int countBook;
 
-    public Book(String title, String author, int page) {
+    public Book(String title,String author, int page) {
         super(title);
         this.author = author;
         this.page = page;
+        ++countBook;
     }
 
     public String getAuthor() {
@@ -31,6 +32,11 @@ public class Book extends LibraryItem {
 
     public static void setCountBook(int countBook) {
         Book.countBook = countBook;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " Autor " + author + " Ilość stron " + page;
     }
 }
 
