@@ -85,45 +85,44 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BigDecimalAndInt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Board.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalcApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorAp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonaci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FruitTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Number.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Nwd.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Palindrom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PersonTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PointApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pyramid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PyramidRepeat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Rectangel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ship.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Nowa-Biblioteka&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/biklu/IdeaProjects/KursJava3&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BigDecimalAndInt.executor": "Run",
+    "Application.Board.executor": "Run",
+    "Application.CalcApp.executor": "Run",
+    "Application.CalculatorAp.executor": "Run",
+    "Application.CalculatorApp.executor": "Run",
+    "Application.Fibonaci.executor": "Run",
+    "Application.FruitTest.executor": "Run",
+    "Application.Loop.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NewCalc.executor": "Run",
+    "Application.Number.executor": "Run",
+    "Application.Nwd.executor": "Debug",
+    "Application.Palindrom.executor": "Run",
+    "Application.PersonTest.executor": "Run",
+    "Application.PointApp.executor": "Run",
+    "Application.Pyramid.executor": "Run",
+    "Application.PyramidRepeat.executor": "Run",
+    "Application.Rectangel.executor": "Run",
+    "Application.Ship.executor": "Run",
+    "Application.TestMain.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/biklu/IdeaProjects/KursJava3",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: []
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": []
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="KursJava3" />
