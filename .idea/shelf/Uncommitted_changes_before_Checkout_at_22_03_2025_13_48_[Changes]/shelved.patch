@@ -1,0 +1,16 @@
+Index: stos/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/stos/src/Main.java b/stos/src/main.java
+rename from stos/src/Main.java
+rename to stos/src/main.java
+--- a/stos/src/Main.java	(revision 6b8dd2ab89beac9191212a4711d8663d2758ff13)
++++ b/stos/src/main.java	(date 1742647667278)
+@@ -1,4 +1,4 @@
+-public class Main {
++public class main {
+     public static void main(String[] args) {
+         Stack stack = new Stack();
+         stack.push(30);
