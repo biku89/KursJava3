@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Dodaje aktualizację plików">
+    <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Ostateczna wersja biblioteki">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/model/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/InterfaceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/InterfaceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/ItemAlredyBorrowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/exception/ItemAlredyBorrowException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/ItemAlredyReturnedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/exception/ItemAlredyReturnedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/ItemNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/exception/ItemNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/service/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/LibraryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/model/LibraryItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KursJava3/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/service/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/service/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/Film.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/InterfaceUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KursJava3/InterfaceUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/ItemAlredyBorrowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/ItemAlredyReturnedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/ItemNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/LibraryItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KursJava3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KursJava3/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,7 @@
     &quot;Application.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Nowa-Biblioteka&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#22 on Nowa-Biblioteka&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/biklu/IdeaProjects/KursJava3&quot;,
@@ -473,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742656219017</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Ostateczna wersja biblioteki">
+      <option name="closed" value="true" />
+      <created>1742664844755</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1742664844755</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +523,8 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Dodaje podstawowe pliki dla testu" />
     <MESSAGE value="Dodaje aktualizację plików" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodaje aktualizację plików" />
+    <MESSAGE value="Ostateczna wersja biblioteki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ostateczna wersja biblioteki" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
