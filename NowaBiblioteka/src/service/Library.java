@@ -49,13 +49,19 @@ public class Library {
 //        }
 //    }
 
+    public void returnItem(String title) throws ItemAlredyReturnedException{
+        LibraryItem item = findByTitle(title)
+                .orElseThrow(() -> new ItemAlredyReturnedException("Tytuł został już zwrócony " + title));
+        item.returnItem();
+    }
+
     public void rentItem(String title) throws ItemNotFoundException {
         LibraryItem item = findByTitle(title)
-                .orElseThrow(() -> new ItemNotFoundException("Nie znaleizonoi tytłu" + title)); //Wywołuje findBytitle który zwróci mi optionala
+                .orElseThrow(() -> new ItemNotFoundException("Nie znaleizonoi tytłu" + title));
         item.borrowItem();
-        }
-
     }
+
+}
 //    public void returnItem(String title) throws  ItemAlredyReturnedException{
 //        Optional <LibraryItem> optionalItem = findByTitle(title); //TODO: przerób tak jak wyżej
 //        if (optionalItem.isPresent()){

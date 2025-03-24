@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Dodaje wersję z Optional">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Nowe zadanie z telefonem">
       <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/service/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/service/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -523,7 +522,8 @@
     <MESSAGE value="Dodaje aktualizację plików" />
     <MESSAGE value="Ostateczna wersja biblioteki" />
     <MESSAGE value="Dodaje wersję z Optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodaje wersję z Optional" />
+    <MESSAGE value="Nowe zadanie z telefonem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nowe zadanie z telefonem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
