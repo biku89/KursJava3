@@ -50,47 +50,25 @@ public class Library {
 //    }
 
     public void rentItem(String title) throws ItemNotFoundException {
-        Optional<LibraryItem> optionalItem = findByTitle(title); //Wywołuje findBytitle który zwróci mi optionala
-
-        if (optionalItem.isPresent()) { //isPresent zwróci mi tru jeżeli przedmiot będzie istniał
-            LibraryItem item = optionalItem.get();
-            if (!item.isBorrowed()) {
-                item.borrowItem();
-                System.out.println("Tytuł został przez Ciebie wpożyczony " + title);
-            } else {
-                System.err.println("Tytuł został już wypożyczony" + title);
-            }
-        } else {
-            System.err.println("Błedna nazwa tytułu " + title);
+        LibraryItem item = findByTitle(title)
+                .orElseThrow(() -> new ItemNotFoundException("Nie znaleizonoi tytłu" + title)); //Wywołuje findBytitle który zwróci mi optionala
+        item.borrowItem();
         }
 
     }
-    public void returnItem(String title) throws  ItemAlredyReturnedException{
-        Optional <LibraryItem> optionalItem = findByTitle(title);
-        if (optionalItem.isPresent()){
-            LibraryItem item = optionalItem.get();
-            if (item.isBorrowed()){
-                item.returnItem();
-                System.out.println("Tytuł został przez Ciebie zwrócony " + title);
-            }else {
-                System.err.println("Tytuł został już zwrócony " + title);
-            }
-        }else {
-            System.err.println("Błędna nazwa tytułu " + title);
-        }
-
-//    public void returnItem(String title) throws ItemAlredyReturnedException {
-//        LibraryItem item = this.findByTitle(title);
-//        if (item != null){
-//            this.findByTitle(title).borrowItem();
-//            System.out.println("Tytuł został pomyślnie zwrócony");
+//    public void returnItem(String title) throws  ItemAlredyReturnedException{
+//        Optional <LibraryItem> optionalItem = findByTitle(title); //TODO: przerób tak jak wyżej
+//        if (optionalItem.isPresent()){
+//            LibraryItem item = optionalItem.get();
+//            if (item.isBorrowed()){
+//                item.returnItem();
+//                System.out.println("Tytuł został przez Ciebie zwrócony " + title);
+//            }else {
+//                System.err.println("Tytuł został już zwrócony " + title);
+//            }
 //        }else {
 //            System.err.println("Błędna nazwa tytułu " + title);
-//        }
-}
 
 
-
-}
 
 
