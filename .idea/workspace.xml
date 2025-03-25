@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Nowe zadanie z telefonem">
-      <change beforePath="$PROJECT_DIR$/NowaBiblioteka/src/service/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/NowaBiblioteka/src/service/Library.java" afterDir="false" />
+    <list default="true" id="3d818803-5156-43cd-93e2-f7e35161431a" name="Changes" comment="Poprawiona wersja Optional">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,45 +88,45 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BigDecimalAndInt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Board.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalcApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorAp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonaci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FruitTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NewCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Number.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Nwd.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Palindrom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PersonTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PointApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pyramid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PyramidRepeat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Rectangel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ship.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#22 on Nowa-Biblioteka&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/biklu/IdeaProjects/KursJava3&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BigDecimalAndInt.executor": "Run",
+    "Application.Board.executor": "Run",
+    "Application.CalcApp.executor": "Run",
+    "Application.CalculatorAp.executor": "Run",
+    "Application.CalculatorApp.executor": "Run",
+    "Application.Fibonaci.executor": "Run",
+    "Application.FruitTest.executor": "Run",
+    "Application.Loop.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NewCalc.executor": "Run",
+    "Application.Number.executor": "Run",
+    "Application.Nwd.executor": "Debug",
+    "Application.Palindrom.executor": "Run",
+    "Application.PersonTest.executor": "Run",
+    "Application.PointApp.executor": "Run",
+    "Application.Pyramid.executor": "Run",
+    "Application.PyramidRepeat.executor": "Run",
+    "Application.Rectangel.executor": "Run",
+    "Application.Ship.executor": "Run",
+    "Application.TestMain.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Nowa-Biblioteka",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/biklu/IdeaProjects/KursJava3",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: []
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": []
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="KursJava9" />
@@ -479,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742746796438</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Poprawiona wersja Optional">
+      <option name="closed" value="true" />
+      <created>1742845015404</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1742845015404</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +531,8 @@
     <MESSAGE value="Ostateczna wersja biblioteki" />
     <MESSAGE value="Dodaje wersję z Optional" />
     <MESSAGE value="Nowe zadanie z telefonem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nowe zadanie z telefonem" />
+    <MESSAGE value="Poprawiona wersja Optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poprawiona wersja Optional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
