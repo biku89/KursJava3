@@ -10,6 +10,7 @@ public class Telefon {
     }
 
     public void zadzwon(String numer){
+        System.out.println("Wykonuje połączenie");
         System.out.println(numer);
     }
 
