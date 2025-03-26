@@ -4,11 +4,10 @@ import java.util.List;
 import java.util.Objects;
 
 public class Smartfon extends Komorka {
-    List <Osoba> listaZnajmoych = new ArrayList<>();
+    private final List <Osoba> listaZnajmoych = new ArrayList<>();
 
     public Smartfon(String interfejsKomunikacyjny, Color color, List<Osoba> listaZnajmoych) {
         super(interfejsKomunikacyjny, color);
-        this.listaZnajmoych = listaZnajmoych;
     }
 
     @Override

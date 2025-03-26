@@ -15,6 +15,7 @@ public class Komorka extends Telefon {
 
     public void wyswietlHistoriePolaczen(){
         System.out.println("Lista obiektów wywołanych przez Komórkla");
-        historiaTelefonów.stream().forEach(System.out::println);
+        historiaTelefonów.stream()
+                .forEach(System.out::println);
     }
 }
