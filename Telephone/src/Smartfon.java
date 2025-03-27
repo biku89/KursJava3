@@ -8,6 +8,7 @@ public class Smartfon extends Komorka {
 
     public Smartfon(String interfejsKomunikacyjny, Color color, List<Osoba> listaZnajmoych) {
         super(interfejsKomunikacyjny, color);
+        this.listaZnajmoych.addAll(listaZnajmoych); //
     }
 
     @Override
