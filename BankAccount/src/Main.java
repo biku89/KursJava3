@@ -19,18 +19,18 @@ public class Main {
                     account.update();
                 });
 
-
+        System.out.println("Zmiana oprocentowania");
         Account.changeInterestRate(6.5);
         listOfBankAccounts.stream().skip(1).limit(1).forEach(Bill::update);
-        listOfBankAccounts.stream().skip(2).forEach(Bill::update);
 
+        System.out.println("Operacja na vipie");
         Optional<Bill> maciekAcc = listOfBankAccounts
                 .stream()
                 .filter(acc -> acc.getPerson().getName().equals("Maciuś"))
                 .findFirst();
         maciekAcc.ifPresent(acc -> acc.payment(400));
         maciekAcc.ifPresent(acc -> acc.cashWithdraw(1000));
-        maciekAcc.filter(acc -> acc.cashWithdraw(1000))
+        maciekAcc.filter(acc -> acc.cashWithdraw(100000))
                 .ifPresent(System.out::println);
         maciekAcc.ifPresent(Bill::update);
 
