@@ -17,7 +17,8 @@ public class EmployeeList{
     }
     public void uniqueProject(){
         System.out.println("Unikalne projektu");
-        employee.stream().map(employee -> employee.getProject())
+        employee.stream()
+                .map(employee -> employee.getProject())
                 .distinct()
                 .forEach(System.out::println);
     }
