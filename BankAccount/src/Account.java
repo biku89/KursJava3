@@ -7,13 +7,16 @@ public class Account extends Bill{
         super(person, accountBalans);
     }
 
-    public static void changeInterestRate(double newInterestRate){
+    public static void changeInterestRate(Double newInterestRate){
         Optional.of(newInterestRate)
                 .filter(rate -> rate >= 0)
                 .ifPresentOrElse(rate ->{
                     interestRate = rate;
                     System.out.println("Ustawiono nowe oprocentowanie " + interestRate);
-                },() -> System.out.println("Nie udało się wykonac operacji"));
+                } ,
+                () -> {
+                    throw new IllegalArgumentException("Błędna wartość");
+                });
     }
 
     public void update(){

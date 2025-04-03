@@ -35,10 +35,7 @@ public class Bill {
                     System.out.println("Saldo po operacji " + accountBalans);
                     return true;
                 })
-                .orElseGet(() -> {
-                    System.out.println("Operacja się nie udała");
-                    return false;
-                });
+                .orElseThrow(() -> new IllegalArgumentException("Operacja się nie udała"));
     }
 
     public boolean transfer(int numberAcc, double amount) {
